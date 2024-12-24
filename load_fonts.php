@@ -1,6 +1,6 @@
 <?php
 
-// This script is modifed from https://github.com/dompdf/utils/blob/master/load_font.php
+// This script is modified from https://github.com/dompdf/utils/blob/master/load_font.php
 
 // 1. [Required] Point to the composer or dompdf autoloader
 require_once 'vendor/autoload.php';
@@ -12,7 +12,7 @@ require_once 'vendor/autoload.php';
 $fontDir = 'storage/fonts';
 
 // 3. configure your fonts
-// `normal` font is required, and `bold`, `italic`, and `bold` italic are optional
+// `normal` font is required, and `bold`, `italic`, and `bold_italic` are optional
 // format:
 // $fonts = [
 //     'font_name' => [
